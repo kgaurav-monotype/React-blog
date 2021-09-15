@@ -1,0 +1,49 @@
+.singlepost {
+    flex: 9;
+    margin-right: 60px;
+    &-img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        margin-bottom: 20px;
+    }
+    &-editmode {
+        margin-bottom: 20px;
+        text-align: right;
+    }
+    &-icon {
+        margin-left: 20px;
+        font-size: 20px;
+        cursor: pointer;
+        &:first-child {
+            color: rgb(22, 167, 41);
+        }
+        &:last-child {
+            color: rgb(195, 42, 22);
+        }
+    }
+    &-title {
+        font-weight: 800;
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+    &-description {
+        margin-bottom: 20px;
+        line-height: 24px;
+        &::first-letter {
+            font-size: 36px;
+            font-weight: 800;
+        }
+        a {
+            color: rgb(13, 46, 196);
+            font-weight: 600;
+        }
+        strong {
+            font-weight: 800;
+        }
+        &::selection {
+            background-color: rgb(13, 46, 196);
+            color: #fff;
+        }
+    }
+}

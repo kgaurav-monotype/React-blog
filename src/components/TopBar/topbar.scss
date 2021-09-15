@@ -1,0 +1,56 @@
+.top {
+    padding: 20px;
+    background-color:#fff;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a {
+        text-decoration: none;
+    }
+}
+.top-left,.top-right {
+    flex:3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-left {
+    h1 {
+        font-size: 24px;
+        font-weight: 800;
+        cursor: pointer;
+    }
+}
+.top-center {
+    flex:6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-user-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.top-icon,.top-search-icon {
+    font-size: 24px;
+    margin:0 5px;
+    cursor: pointer;
+    color: #141414;
+}
+.top-search-icon {
+    margin-left: 20px;
+}
+.top-menu {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    text-transform: uppercase;
+}
+.top-menu-item {
+    margin: 0 30px;
+    cursor: pointer;
+}
